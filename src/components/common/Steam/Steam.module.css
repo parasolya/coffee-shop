@@ -15,7 +15,7 @@
   margin: 0 2px 50px;
   min-width: 60px;
   height: 220px;
-  background: rgba(247, 245, 245, 0.227);
+  background: rgba(247, 245, 245, 0.123);
   animation: animate 10s linear infinite;
   animation-delay: calc(var(--i) * -0.5s);
   filter: blur(8px);
@@ -28,6 +28,7 @@
     min-width: 30px;
     height: 120px;   
     bottom: -180px; 
+    background: rgba(247, 245, 245, 0.227);
   }
 }
 
